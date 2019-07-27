@@ -2,6 +2,13 @@ import React, { Component } from "react";
 import { SongList } from "../components/SongList";
 
 class SongContainer extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      songs: []
+    };
+  }
+
   render() {
     return (
       <>

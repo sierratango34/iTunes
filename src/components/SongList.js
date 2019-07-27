@@ -1,5 +1,5 @@
 import React from "react";
-import { SongDetail } from "./SongDetails";
+import { SongDetail } from "./SongDetail";
 
 export const SongList = props => {
   return (
