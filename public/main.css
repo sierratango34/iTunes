@@ -1,0 +1,23 @@
+html {
+  margin: 0;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+img {
+  width: 200px;
+}
+
+#song-box {
+  margin: 5px;
+}
