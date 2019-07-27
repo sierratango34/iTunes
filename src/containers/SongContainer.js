@@ -17,12 +17,7 @@ class SongContainer extends Component {
   }
 
   render() {
-    return (
-      <>
-        <h3>This is a song container</h3>
-        <SongList />
-      </>
-    );
+    return <SongList songs={this.state.songs} />;
   }
 }
 
