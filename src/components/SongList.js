@@ -9,7 +9,7 @@ export const SongList = props => {
         artist={song["im:artist"].label}
         image={song["im:image"][2].label}
         price={song["im:price"].label}
-        audioPreview={song.link[1].href}
+        audioPreview={song.link[1].attributes.href}
       />
     );
   });
